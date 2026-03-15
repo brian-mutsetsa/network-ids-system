@@ -30,3 +30,8 @@ desktop.ini
 # Logs
 *.log
 npm-debug.log*
+
+# Large dataset files
+dataset/
+*.zip
+*.csv

@@ -13,7 +13,29 @@ A real-time network intrusion detection and breach analysis system powered by ma
 - **Breach Analysis** - Detailed forensic reports with recommendations
 - **REST API** - FastAPI backend for seamless integration
 
-## 📋 Prerequisites
+## � Documentation Files
+
+This project includes comprehensive documentation for academic submission:
+
+- **[DOCUMENTATION_CHAPTERS_4-6.md](DOCUMENTATION_CHAPTERS_4-6.md)** - Complete final year project documentation including:
+  - Chapter 4: System Design & Architecture
+  - Chapter 5: Implementation & Testing (with CLI commands for nmap, hydra, hping3)
+  - Chapter 6: Results & Conclusions
+  - Ready for screenshots integration with markdown references
+
+- **[PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md)** - Complete file inventory and project structure overview
+
+- **[SCREENSHOT_NAMING_GUIDE.md](documentation/SCREENSHOT_NAMING_GUIDE.md)** - Screenshot organization guide with:
+  - 26 screenshot filenames with naming convention
+  - Folder structure (01_Startup, 02_Authentication, etc.)
+  - Capture instructions for each screenshot
+  - Mapping to documentation sections
+
+- **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Detailed installation instructions
+
+- **[VM_GUIDE.md](VM_GUIDE.md)** - Virtual machine configuration guide
+
+## �📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
 
@@ -74,10 +96,12 @@ You need **TWO terminals running simultaneously**:
 ```bash
 cd backend
 venv\Scripts\activate  # On Windows
-python api/main.py
+python run.py
 ```
 
-✅ You should see: `API will be available at: http://localhost:8000`
+✅ You should see: `Uvicorn running on http://127.0.0.1:8000`
+
+⚠️ **Note:** Use `python run.py` instead of `uvicorn` - this script cleaner terminal output without personal file paths.
 
 ### Terminal 2: Start the Frontend Dashboard
 ```bash
